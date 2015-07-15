@@ -21,9 +21,17 @@ h = 0.013;   %% thickness of the leaf spring
 kbar = 2*Y*w*h^3;
 L = 0.6;     %% free length of the spring 
 
+
 % Damper properties
 c = 75;
-
+alf0 = -23.1;
+alf1 = 1215.2;
+beta0 = 36.5;
+gam0 = 1.6;
+del0 = 0;
+eta0 = 1202.7;
+kap0 = 1297;
+i = 1;
 
 mdl = 'robot_shin_test';
 open(mdl);
