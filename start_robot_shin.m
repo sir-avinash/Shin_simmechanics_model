@@ -23,14 +23,16 @@ L = 0.6;     %% free length of the spring
 
 
 % Damper properties
-c = 75;
+c = 75;  %% passive damper
+
+%% MR Damper Props 
 alf0 = -23.1;
 alf1 = 1215.2;
-beta0 = 36.5;
+beta0 = 1297;
 gam0 = 1.6;
 del0 = 0;
 eta0 = 1202.7;
-kap0 = 1297;
+kap0 = 0;
 i = 1;
 
 mdl = 'robot_shin_test';
