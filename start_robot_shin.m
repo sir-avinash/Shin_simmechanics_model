@@ -4,10 +4,11 @@ addpath(genpath('Images'))
 addpath(genpath('stl'))
 
 % Set simulation parameters
-Y0 = 1;     % Initial heigh [m]
-K = 2500;   % Spring constant [N/m]
-C = 75;     % Damping coefficient [N/(m/s)]
-
+Y0 = 3;         % Initial heigh [m]
+K = 2500;       % Spring constant [N/m]
+C = 75;         % Damping coefficient [N/(m/s)]
+D_max = 0.074;  % Damper maximum stroke size [m]
+mass = 20;      % Dead mass at the top [kg]
 %K = 0;
 %C = 0;
 % -------  Avinash's model ------------
@@ -21,7 +22,6 @@ kbar = 2*Y*w*h^3;
 L = 0.6;     %% free length of the spring 
 
 % Damper properties
-c = 17.5;
 c = 75;
 
 
