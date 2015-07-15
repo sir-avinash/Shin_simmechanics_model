@@ -23,7 +23,9 @@ L = 0.6;     %% free length of the spring
 
 
 % Damper properties
-c = 75;
+c = 75;  %% passive damper
+
+%% MR Damper Props 
 alf0 = -23.1;
 alf1 = 1215.2;
 beta0 = 36.5;
