@@ -28,9 +28,9 @@ c = 75;  %% passive damper
 %% MR Damper Props 
 alf0 = -23.1;
 alf1 = 1215.2;
-beta0 = 1297;
+beta0 = 36.5;
 gam0 = 1.6;
-del0 = 0;
+del0 = 1297;
 eta0 = 1202.7;
 kap0 = 0;
 i = 1;
