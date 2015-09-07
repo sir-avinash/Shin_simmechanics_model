@@ -4,11 +4,11 @@ addpath(genpath('Images'))
 addpath(genpath('stl'))
 
 % Set simulation parameters
-Y0 = 3;         % Initial heigh [m]
+Y0 = 2;         % Initial heigh [m]
 K = 2500;       % Spring constant [N/m]
 C = 75;         % Damping coefficient [N/(m/s)]
 D_max = 0.074;  % Damper maximum stroke size [m]
-mass = 20;      % Dead mass at the top [kg]
+mass = 40;      % Dead mass at the top [kg]
 %K = 0;
 %C = 0;
 % -------  Avinash's model ------------
@@ -33,7 +33,7 @@ gam0 = 1.6;
 del0 = 1297;
 eta0 = 1202.7;
 kap0 = 0;
-i = 1;
+i = 2;
 
 mdl = 'robot_shin_test';
 open(mdl);
